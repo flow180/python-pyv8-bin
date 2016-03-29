@@ -7,7 +7,7 @@ from setuptools import setup
 from distutils.command.build import build
 from setuptools.command.easy_install import easy_install
 
-assert sys.version_info[0:2] == (3,5)
+assert sys.version_info[0:2] == (3,4)
 assert platform.python_implementation() == 'CPython'
 assert platform.system() == 'Linux'
 assert platform.machine() == 'x86_64'
